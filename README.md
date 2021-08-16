@@ -7,4 +7,18 @@ Ejercicio 2:
 
 Ejercicio 3:
 
-Ejercicio Integrador: con lo aprendido anteriormente realice una pagina estatica que se encuentra en https://vilma-rojas.github.io/imax-ventas/
+Ejercicio Integrador: https://vilma-rojas.github.io/imax-ventas/
+
+Ejercicio 4: 
+
+Ejercicio 5: 
+
+Ejercicio 6:
+
+Ejercicio 7: 
+
+Ejercicio 8: 
+
+Ejercicio 9:
+
+Proyecto Final: https://tienda-movil.github.io/
