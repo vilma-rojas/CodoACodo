@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.col-3{
+    background-color: red;
+    color: yellow;
+    width: 250px;
+    height: 250px;
+}
+
+#dos{
+    background-color: black;
+    color: white;
+    margin-left: 265px;
+    margin-top: -250px;
+}
+
+#tres{
+    margin-left: 530px;
+    margin-top: -250px;
+
+}
+
+#cuatro{
+    margin-left: 795px;
+    margin-top: -250px;
+}
+
