@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+        <html>
+            <head>
+            <script>
+                function calcular(){
+                    var nombre = document.getElementById("name").value;
+                    var edad = document.getElementById("edad").value;
+                    if(edad >=18){
+                        alert(nombre+" sos mayor edad");
+                    }else{
+                        alert(nombre+" no sos mayor de edad")
+                    }
+                }
+
+                function mayorDe3(){
+
+                    var persona1 = {
+                        nombre: document.getElementById("name1").value,
+                        edad :document.getElementById("edad1").value
+                    };
+
+                    var persona2 = {
+                        nombre : document.getElementById("name2").value,
+                        edad :document.getElementById("edad2").value
+                    };
+
+                    var persona3 = {
+                        nombre : document.getElementById("name3").value,
+                        edad : document.getElementById("edad3").value
+                    };
+
+                    if(persona1.edad> persona2.edad && persona1.edad > persona3.edad){
+                        return alert(persona1.nombre+" es el mayor de edad ");
+                    } else {
+                        return alert(persona3.nombre+" es el mayor de edad ");
+                    } if(persona2.edad> persona1.edad && persona2.edad > persona3.edad){
+                        return alert(persona2.nombre+" es el mayor de edad ");
+                    } 
+                }
+            </script>
+            </head>
+            
+            <body>
+                <h2>Calcular si 1 usuario es mayor de edad</h2>
+            <form>
+                <table>
+                    <tr>
+
+                        <td>Usuario</td>
+                        
+                        <td><input type= "text" id="name"></td>
+            
+                    </tr>
+            
+            
+                    <tr>
+            
+                        <td>Edad</td>           
+            
+                        <td><input type= "number" id= "edad"></td>
+            
+               
+                    </tr>
+
+                </table>
+
+                <input type = "button" value = "calcular" onclick = "calcular();" />
+            
+            
+            </form>
+
+            <h2>Calcular el mayor de edad de 3 usuarios</h2>
+            <form>
+                <table>
+                    <tr>
+
+                        <td>Usuario 1</td>
+                        
+                        <td><input type= "text" id="name1"></td>
+            
+                    </tr>
+            
+            
+                    <tr>
+            
+                        <td>Edad</td>           
+            
+                        <td><input type= "number" id= "edad1"></td>
+            
+               
+                    </tr>
+
+                    <tr>
+
+                        <td>Usuario 2</td>
+                        
+                        <td><input type= "text" id="name2"></td>
+            
+                    </tr>
+            
+            
+                    <tr>
+            
+                        <td>Edad</td>           
+            
+                        <td><input type= "number" id= "edad2"></td>
+            
+               
+                    </tr>
+
+                    <tr>
+
+                        <td>Usuario 3</td>
+                        
+                        <td><input type= "text" id="name3"></td>
+            
+                    </tr>
+            
+            
+                    <tr>
+            
+                        <td>Edad</td>           
+            
+                        <td><input type= "number" id= "edad3"></td>
+            
+               
+                    </tr>
+
+                </table>
+
+                <input type = "button" value = "calcular" onclick = "mayorDe3();" />
+            
+            
+            </form>
+            </body>
+            </html>
