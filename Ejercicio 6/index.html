@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+        <html>
+            <head>
+            <script>
+            function sumar(notas){
+                var sumaNotas = 0;
+                for(var i=0; i<notas.length; i++){
+                    sumaNotas += notas[i];
+                }   
+                return sumaNotas; 
+            }
+            function promedioNotas() {
+                var usuario = prompt ("Ingresar Nombre");
+                var nota1 = prompt ("Ingresar Primer Nota");
+                var nota2 = prompt ("Ingresar Segunda Nota");
+                var nota3 = prompt ("Ingresar Tercer Nota");
+                var notas = [nota1,nota2,nota3];
+                return alert("El promedio de "+usuario+ " es "+sumar(notas)/3);
+            }
+            </script>
+            </head>
+            
+            <body>
+            <h3>Calcular Promedio de Notas para un usuario</h3>
+            <form>
+            <input type = "button" value = "calcular" onclick = "promedioNotas();" />
+            </form>
+            </body>
+            </html>
