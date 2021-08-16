@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.inicio{
+    background-color: grey;
+    text-align: right;
+    height: 20px;
+}
+
+.final{
+    background-color: grey;
+    text-align: center;
+}
+
+#texto-1{
+    
+    margin-top: 10px;
+    margin-left: 250px;
+    
+    
+}
+
+.imgHTML{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px; 
+    margin-left: 300px;
+}
+
+.imgCSS{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
