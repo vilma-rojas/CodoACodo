@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+row > div{
+    background: #f2f2f2;
+    padding: 50px;
+    border: 1px solid grey;
+  }
+  
+
+  
+.titulo{
+      margin-top: -10px;
+      font-size: 20px;
+      
+      
+}
+.navbar-brand{
+    margin-left: 15px;
+    margin-top: 15px;
+   
+    height: 100px;
+    width: 100px;
+}
+
+.nav-link{
+    font-size: 15px;
+    
+
+}
+
+
+
+.navbar-toggler{
+    height: 10px;
+    
+}
+
+li{
+    width: 55px;;
+}
+
+.form-control{
+    margin-left: 690px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.card1{
+    width: 400px;
+    height: 500px;
+    margin-top: -40px;
+    margin-left: -100px;
+   /* margin-left: -100px;
+    margin-top: -40px;*/
+    
+
+}
+
+.card2{
+    width: 380px;
+    margin-top: -500px;
+    margin-left: 310px;
+   /* margin-left: -px;
+    margin-top: -400px;*/
+
+
+}
+
+.card3{
+    width: 430px;
+    margin-top: -330px;
+    margin-left: 827px;
+   /* margin-top: -800px;
+    margin-left: 850px;*/
+   
+
+}
+
+.list-group-item{
+    color: grey;
+    width: 400px;
+
+}
+
+
